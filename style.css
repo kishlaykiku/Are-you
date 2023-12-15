@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.flex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    gap: 1rem;
+}
+
+.choice {
+    gap: 3rem;
+    /* position: relative; */
+}
+
+.decoy {
+    background-color: #fff;
+    height: 50px;
+    width: 100px;
+}
